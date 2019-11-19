@@ -1,0 +1,47 @@
+# The-Meme-Team
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>edinbreezy</title>
+
+</head>
+<body>
+  <h1>Hi!</h1>
+
+  <h2>Welcome to Edinburgh!</h2>
+
+  <!-- image of a duck -->
+  <img src="75490167-01C6-4761-8FB7-00F28D60A14F.JPG" width="200px">
+
+  <p>I am currently learning to code with <a href="www.codefirstgirls.org.uk">Code First Girls</a>. Going over everything from how the
+    internet works, to creating websites and version control with git. A lot to cover in only 8 weeks!
+    Everyone should learn to code, here are some pretty good reasons why...</p>
+    <ol>
+      <li>HTML is cool</li>
+      <li>CSS is cooler</li>
+      <li>JS is the best</li>
+    </ol>
+
+
+  <h2><em>What do you need to create a website?</em></h2>
+
+  <p>Not much!</p>
+    <ul>
+      <li>A computer (always a good start)</li>
+      <li>A text editor (I am using atom)</li>
+      <li>A web browser (I am using chrome)</li>
+      <li>Some HTML, CSS and JS files</li>
+    </ul>
+
+  <br>
+
+  <p>
+    Follow my progress on <a href="www.github.com">github</a>
+  </p>
+</body>
+</html>
