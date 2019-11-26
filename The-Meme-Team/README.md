@@ -1,1 +1,0 @@
-Welcome to Edinburgh Website!
