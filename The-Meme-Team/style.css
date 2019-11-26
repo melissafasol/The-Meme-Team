@@ -1,25 +1,70 @@
-body{
-  color:rgb(49,58,69);
-  font-family:arial;
+@import url('https://fonts.googleapis.com/css?family=Merriweather&display=swap');
+
+
+* {
+  box-sizing: border-box;
+  font-family: 'Merriweather';
 }
-h1,h2 {
+
+body{
+  background-color: #164441;
+  color: white;
+}
+h1,h2, .contact {
   text-align: center;
 }
 p{
   width:100%;
   margin:10vh 10vw
-  font-size: 2em;
 }
 a {
-  color:rgb(0,0,0)
+  text-decoration: none;
+  font-size: 16pt;
 }
-ol {
+a:link, a:visited {
+  color: white;
+}
+a:hover {
+  color: #F7B733;
+}
+
+ul {
   list-style: none;
   padding:0;
   font-size:3em;
   justify-content: space-evenly;
 }
-div.contrast {
-  background-color:rgb(0,0,0);
-  color: rgb(255,255,255);
+
+
+/* Styling Gallery Section */
+
+.gallery {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+.galleryPhoto {
+  float: left;
+  margin: 10px auto;
+  text-align: center;
+}
+
+.galleryPhotos {
+  float: left;
+  margin: 10px auto;
+  text-align: center;
+  padding: 5pt;
+  border-radius: 10px;
+}
+
+.forms textarea {
+  margin-top: 1em;
+  padding-top: .6em;
+  padding-left: .8em;
+  width: 80%;
+  height: 100px;
+  border: none;
+  border-radius: 5px;
+  background-color: #e8e8e8;
+  outline-color: #333f6b;
 }
